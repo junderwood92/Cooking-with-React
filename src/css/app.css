@@ -1,0 +1,66 @@
+@import-normalize;
+@import 'font.css';
+@import 'buttons.css';
+@import 'recipe-list.css';
+@import 'ingredient-list.css';
+@import 'recipe.css';
+@import 'recipe-edit.css';
+
+*, *::before, *::after {
+  font-family: Gotham Rounded, sans-serif;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 25px;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.mr-1 {
+  margin-right: 5px;
+}
+
+.overall-container {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.right-container {
+  height: 100%;
+  width: 50%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.edit-container {
+  height: 90vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.footer {
+  display: flex;
+  align-items: flex-end;
+  font-size: 8px;
+  height: 10vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  align-self: flex-end;
+}
+
+.footer p {
+  margin-left: 10px;
+  font-style: italic;
+  font-weight: bold;
+}
